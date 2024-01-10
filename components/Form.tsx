@@ -52,7 +52,7 @@ const Form = () => {
         <div className="border w-[400px] h-[450px] rounded-xl flex justify-center">
             <h1 className=" text-3xl mt-10 fixed">WebHook Sender</h1>
             <div className="flex flex-col items-center justify-center gap-y-[30px] mt-10">
-                <Input value={url} onChange={(event) => setUrl(event.target.value)} className='w-[300px]' placeholder="WebHook URL" />
+                <Input value={url} onChange={(event) => setUrl(event.target.value)} className='w-[300px]' placeholder="WebHook URL" type="password" />
                 <Input value={name} onChange={(event) => setName(event.target.value)} className='w-[300px]' placeholder="Webhook Name" />
                 <Input value={contents} onChange={(event) => setContents(event.target.value)} className='w-[300px]' placeholder="Contents" /> 
                 <Button disabled={!isUrlValid() || !isNameEmpty() || !isContentEmpty()} onClick={sendEvent} className='w-[200px] mt-5'>Send</Button>
