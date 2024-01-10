@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'WebhookSender',
-  description: 'Create by Mc',
+  description: 'Powerd by Mc',
 }
 
 export default function Home() {
