@@ -1,4 +1,2 @@
-
-=======
-# webhook-sender-v2
-この間のやつのUIついたバージョンです。
+# webhook-sender
+nextjsとかtypescriptの勉強用に作ったrepoです
